@@ -1,0 +1,17 @@
+class Animal():
+	
+	def __init__(self, name, age):
+		self.name=name
+		self.age=age
+	
+	def sleep(self):
+		print str(self.name) + "of" + str(self.age) + "is sleeping" 
+	def eat(self):
+		print str(self.name) + "of" + srt(self.age) +"is eating pizza"
+
+x=Animal("meet", 11)
+x.sleep()
+x.eat()
+y=Animal("cat", 2)
+y.sleep()
+y.eat()
